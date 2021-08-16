@@ -288,7 +288,7 @@ saveButton.addEventListener('click', function (event) {
 
 
      localStorage.setItem("high-scores", JSON.stringify([highScore]))
-     localStorage.setItem("user-initials", JSON.stringify([highScoreInitals]))
+     localStorage.setItem("user-initials", JSON.stringify([highScoreInitals])) 
 
     highScores();
 

@@ -36,7 +36,7 @@
 
 /* button styles */
 
-.start-btn, .next-btn, .choice-btn, .score-btn {
+.start-btn {
     display: inline-block;
     background-color: rgb(235, 96, 250);
     padding: .7em 2em;
