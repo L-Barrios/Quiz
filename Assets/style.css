@@ -1,0 +1,79 @@
+* {
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.hide {
+    display: none;
+}
+
+.timer {
+    text-align: right;
+    font-size: 20px;
+}
+
+.questions {
+    font-size: 30px;
+    padding: 20px;
+}
+/* correct/incorrect messasge stylings */
+
+.correct {
+
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(58, 248, 58);
+    
+}
+
+.incorrect { 
+
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+/* button styles */
+
+.start-btn, .next-btn, .choice-btn, .score-btn {
+    display: inline-block;
+    background-color: rgb(235, 96, 250);
+    padding: .7em 2em;
+    border: 0.6em solid #080200;
+    margin: 3px;
+    border-radius:2em;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    font-weight:600;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+
+}
+/* end game text */
+
+.end-game {
+    font-weight: bold;
+}
+
+/* scores form styles */
+
+.scores-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border-color:rgb(235, 96, 250);
+
+
+}
